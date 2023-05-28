@@ -1,13 +1,18 @@
-yum install nginx -y
+echo -e "\e[34m step 1 \e[0m"
+yum install nginx -y &>>/tmp/roboshop.log
 
-rm -rf /usr/share/nginx/html/*
+echo -e "\e[34m step 2 \e[0m"
+rm -rf /usr/share/nginx/html/* &>>/tmp/roboshop.log
 
-curl -o /tmp/frontend.zip https://roboshop-artifacts.s3.amazonaws.com/frontend.zip
+echo -e "\e[34m step 3 \e[0m"
+curl -o /tmp/frontend.zip https://roboshop-artifacts.s3.amazonaws.com/frontend.zip &>>/tmp/roboshop.log
 
-cd /usr/share/nginx/html
-unzip /tmp/frontend.zip
+echo -e "\e[34m step 4 \e[0m"
+cd /usr/share/nginx/html &>>/tmp/roboshop.log
+unzip /tmp/frontend.zip &>>/tmp/roboshop.log
 
-# cp /etc/nginx/default.d/roboshop.conf
+#cp /etc/nginx/default.d/roboshop.conf &>>/tmp/roboshop.log
 
-systemctl enable nginx
-systemctl restart nginx
+echo -e "\e[34m step 6 \e[0m"
+systemctl enable nginx &>>/tmp/roboshop.log
+systemctl restart nginx &>>/tmp/roboshop.log
