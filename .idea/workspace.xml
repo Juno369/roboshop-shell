@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a6249a1-14ea-4681-9acc-c2cbc028fed9" name="Changes" comment="frontend blah">
-      <change afterPath="$PROJECT_DIR$/frontend.sh" afterDir="false" />
-    </list>
+    <list default="true" id="0a6249a1-14ea-4681-9acc-c2cbc028fed9" name="Changes" comment="frontend script" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QP5NtebsjEPaw0pt4voJCVwPol" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -74,12 +75,34 @@
       <option name="project" value="LOCAL" />
       <updated>1685242494205</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="frontend script">
+      <created>1685314780288</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685314780288</updated>
+    </task>
+    <task id="LOCAL-00007" summary="frontend script">
+      <created>1685314808601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685314808601</updated>
+    </task>
+    <task id="LOCAL-00008" summary="frontend script">
+      <created>1685315002909</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685315002909</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="front" />
     <MESSAGE value="frontend blah" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend blah" />
+    <MESSAGE value="frontend script" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend script" />
   </component>
 </project>
