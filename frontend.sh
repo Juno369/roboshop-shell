@@ -1,18 +1,21 @@
-echo -e "\e[34m step 1 \e[0m"
+component=frontend
+color="\e[34m"
+nocolor="\e[0m"
+echo -e "$[color] step 1 $[nocolor]"
 yum install nginx -y &>>/tmp/roboshop.log
 
-echo -e "\e[34m step 2 \e[0m"
+echo -e "$[color] step 2 $[nocolor]"
 rm -rf /usr/share/nginx/html/* &>>/tmp/roboshop.log
 
-echo -e "\e[34m step 3 \e[0m"
-curl -o /tmp/frontend.zip https://roboshop-artifacts.s3.amazonaws.com/frontend.zip &>>/tmp/roboshop.log
+echo -e "$[color] step 3 $[nocolor]"
+curl -o /tmp/$component.zip https://roboshop-artifacts.s3.amazonaws.com/$component.zip &>>/tmp/roboshop.log
 
-echo -e "\e[34m step 4 \e[0m"
+echo -e "$[color] step 4 $[nocolor]"
 cd /usr/share/nginx/html &>>/tmp/roboshop.log
-unzip /tmp/frontend.zip &>>/tmp/roboshop.log
+unzip /tmp/$component.zip &>>/tmp/roboshop.log
 
 #cp /etc/nginx/default.d/roboshop.conf &>>/tmp/roboshop.log
 
-echo -e "\e[34m step 6 \e[0m"
+echo -e "$[color] step 6 $[nocolor]"
 systemctl enable nginx &>>/tmp/roboshop.log
 systemctl restart nginx &>>/tmp/roboshop.log
