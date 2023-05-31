@@ -1,4 +1,6 @@
 source common.sh
+component=frontend
+
 echo -e "${color} step 1 ${nocolor}"
   yum install nginx -y &>>/tmp/roboshop.log
 
