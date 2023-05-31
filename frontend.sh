@@ -16,6 +16,6 @@ echo -e "${color} step 1 ${nocolor}"
 
   #cp /etc/nginx/default.d/roboshop.conf &>>/tmp/roboshop.log
 
-  echo -e "${color} step 6 ${nocolor}"
+  echo -e "${color} step 5 ${nocolor}"
   systemctl enable nginx &>>/tmp/roboshop.log
   systemctl restart nginx &>>/tmp/roboshop.log
