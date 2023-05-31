@@ -1,5 +1,5 @@
-Juno() {
+
   component=frontend
-  color="\e[33m"
+  color="\e[4m"
   nocolor="\e[0m"
-  }
+
