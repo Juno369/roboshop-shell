@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a6249a1-14ea-4681-9acc-c2cbc028fed9" name="Changes" comment="frontend script">
-      <change beforePath="$PROJECT_DIR$/.idea/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/common.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/frontend.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +211,35 @@
       <option name="project" value="LOCAL" />
       <updated>1685491825203</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="frontend script">
+      <created>1685491868067</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1685491868067</updated>
+    </task>
+    <task id="LOCAL-00026" summary="frontend script">
+      <created>1685491906574</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1685491906574</updated>
+    </task>
+    <task id="LOCAL-00027" summary="frontend script">
+      <created>1685492037625</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685492037625</updated>
+    </task>
+    <task id="LOCAL-00028" summary="frontend script">
+      <created>1685492154701</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685492154701</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
