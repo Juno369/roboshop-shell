@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a6249a1-14ea-4681-9acc-c2cbc028fed9" name="Changes" comment="frontend script">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0a6249a1-14ea-4681-9acc-c2cbc028fed9" name="Changes" comment="yaml playbook" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,13 +293,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685660779543</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="yaml playbook">
+      <created>1685661426465</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1685661426465</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="front" />
     <MESSAGE value="frontend blah" />
     <MESSAGE value="frontend script" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend script" />
+    <MESSAGE value="yaml playbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="yaml playbook" />
   </component>
 </project>
