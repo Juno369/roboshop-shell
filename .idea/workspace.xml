@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a6249a1-14ea-4681-9acc-c2cbc028fed9" name="Changes" comment="frontend script">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/common.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/frontend.sh" afterDir="false" />
-    </list>
+    <list default="true" id="0a6249a1-14ea-4681-9acc-c2cbc028fed9" name="Changes" comment="frontend script" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -270,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685660409532</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="frontend script">
+      <created>1685660459562</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1685660459562</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
